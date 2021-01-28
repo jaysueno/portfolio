@@ -1,8 +1,8 @@
 from flask import Flask, render_template
-from flask_talisman import Talisman
+# from flask_talisman import Talisman
 
 app = Flask(__name__)
-Talisman(app)
+# Talisman(app)
 
 @app.route('/')
 def index():
